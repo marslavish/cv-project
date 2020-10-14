@@ -1,0 +1,89 @@
+$color-primary: #007bff;
+
+body {
+  background-color: #f6f6f6;
+  padding: 1rem;
+  font-size: 90%;
+}
+
+// GLOBAL
+mark {
+  background-color: #fef7b8;
+
+  &:hover {
+    background-color: rgb(255, 238, 108);
+  }
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+// CONTAINER
+.container-sm {
+  max-width: 800px;
+  padding: 6rem 4rem;
+}
+
+// NAME
+.name {
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+
+  &.job {
+    margin-bottom: 0;
+  }
+}
+
+// CONTACT
+.container-contact {
+  margin: 1.4rem 0;
+}
+
+// PROFILE
+.container-profile {
+  margin-bottom: 2.4rem;
+}
+
+// WORK EXPERIENCE
+.container-skills,
+.container-education,
+.container-work-exp {
+  margin-bottom: 1.4rem;
+}
+
+.form-group {
+  width: 30rem;
+}
+
+// INPUT FIELD
+label {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  &.btn-primary {
+    margin-right: 1rem;
+  }
+
+  &.delete-icon {
+    float: right;
+  }
+}
+
+.job-title {
+  margin-bottom: 0.5rem;
+}
+
+.add-name {
+  color: $color-primary;
+  margin-bottom: 2.4rem;
+  cursor: pointer;
+}
